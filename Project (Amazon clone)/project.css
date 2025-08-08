@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo {
+    height: 50px;
+    width: 113px;
+    
+}
+
+.logo {
+    background-image: url("Amazon2.png");
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+.border {
+    border: 1.3px solid transparent;
+}
+
+.border:hover {
+    border: 1.3px solid white;
+}
+
+/*Box 2 (location)*/
+.address {
+    padding: 10px;
+    /*height: 50px;
+    width: 75px;
+    margin-left: 15px;
+    align-items: center; */
+
+}
+
+.add_location {
+    display: flex; 
+}
+
+.deliver {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+.india {
+    font-weight: 550;
+    font-size: 1rem;
+    margin-left: 1px;
+}
+
+/*box 3 (search bar)*/
+
+.searchbar {
+    background-color: rgb(30, 230, 30);
+    height: 40px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.selectall {
+    font-family :Arial, Helvetica, sans-serif;
+    color: #0f1111;
+    padding: 0px 0px 0px 5px;
+    background-color: #e6e6e6;
+    width: 51.6px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.input {
+    font-family :Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color :#0f1111;
+    font-size: 20px;
+    background-color: rgb(255, 191, 0);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.searchbar:hover {
+    border: 2px solid rgb(255, 191, 0);
+}
+
+/*box 4 (language)*/
+.language {
+    color: white;
+    background-color: black;
+    gap: 5px;
+    height: 55px;
+    width: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    height: 30px;
+    font-size: 18px;
+    font-weight :bold;
+}
+
+/*box 5 (sign in)*/
+.signin {
+    padding: 12px;
+}
+
+.para1st {
+    font-size: 12px;
+}
+
+.para2nd {
+    font-size: 14px;
+    font-weight: 550;
+}
+
+/*box 6 (return & orders)*/
+.returnandorder {
+    padding: 12px;
+}
+
+.first {
+    font-size: 12px;
+}
+
+.second {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*box 6 (cart)*/
+
+.cart {
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.cart i {
+    font-size: 30px;
+}
+
+/*first navbar finished*/
+/*now second navbar*/
+
+.panel {
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.allmenu{
+    width: 58.41px;
+    height: 38px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    } 
+
+.paneloptions p {
+    display: inline;
+    color: white;
+    margin: 10px;
+}
+
+.paneloptions {
+    width: 95%;
+}
+
+.front_section {
+    background-image: url("amazonfront.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.divforpara {
+    position: absolute;
+    top: 350px;
+    width: 1630px;
+    height: 40px;
+    background-color: white;
+    margin-left: 25px;
+}
+
+.paraonimg {
+    padding: 10px 14px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+/*shopping*/
+
+.shopping_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    margin-top:0px;
+    height: 950px;
+}
+
+.box {
+    background-color: white;
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid #0f1111; */
+
+}
+
+.box1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.gameimg {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(game_img.jpg);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box1 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box2 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cookerimg {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(cooker.png);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box2 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.jacket {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(jacket.jpg);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box3 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box4 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.everygrade {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(everygrade.jpg);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box4 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box5 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.PCs {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(laptop2.jpg);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box5 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box6 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.shoes {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(shoes.jpg);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box6 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box7 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.watch {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(watch.webp);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box7 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.box8 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.cosmetics {
+    position: relative;
+    top: 17px;
+    height: 70%;
+    width: 94%;
+    background-image: url(cosmetics.jpg);
+    background-size: cover;
+    padding: 20px 0px 15px;
+}
+
+.box8 a {
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+.signinbutton {
+    line-height: 50px;
+    margin-top:50px ;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.signinbutton button {
+    height: 40px;
+    font-size: 15px;
+    width: 250px;
+    color: black;
+    background-color: rgb(251, 212, 20);
+    border-radius: 30px;
+    border: none;
+}
+
+.signinbutton h2 {
+    font-weight: 900;
+}
+
+.backtotoppanel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(58, 82, 97);
+    color: white;
+    height: 40px;
+    width: 100%;
+}
+
+.gettoknowpanel {
+    padding: 20px;
+    height: 320px;
+    width: 100%;
+    color: white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul a {
+    display: block;
+}
+
+.gettoknowpanel ul {
+    list-style-type: none;
+    line-height: 28px;
+}
+
+ul p {
+    font-weight: 800;
+}
+
+.lastpanel {
+    height: 110px;
+    width: 100%;
+    background-color: #131b22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastpanel img {
+    height: 60px;
+    width: 100px;
+}
+
+.finishingpanel {
+    height: 80px;
+    width: 100%;
+    background-color: #131b22;
+    color: white;
+    padding-top: 28px;
+    line-height: 20px;
+}
+
+pre {
+    text-align: center;
+}
+
+pre:hover {
+    text-decoration: underline;
+}
+
+.finishingpanel p {
+    text-align: center;
+}
